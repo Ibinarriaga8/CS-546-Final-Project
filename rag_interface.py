@@ -1,141 +1,146 @@
-"""
-This file is responsible for defining a RAG interface
-that simplifies the implementation of RAG systems
-"""
-
+# rag_interface.py (Performance Optimized Wrapper)
 
 from rag import *
 
+import matplotlib.pyplot as plt
+from utils import similarity   
+
+_EMBEDDINGS_CACHE = {}
+
 class RAGInterface:
     """
-    A simple interface that encapsulates the logic from `main_inmemory_groq`.
-    It takes a RAGConfig object and builds the RAG system on init.
+    Wrapper class for the RAG system designed for the RL/PPO pipeline.
+    It uses a static cache to ensure the expensive embedding model is only loaded once.
     """
+    
     def __init__(self, config: RAGConfig):
-        """
-        Initializes and builds the entire RAG pipeline from a config object.
-        """
-        print("--- Initializing RAGInterface ---")
+        print("--- Initializing RAGInterface (Full Setup) ---")
         self.config = config
         
-        # 1. Instantiate all components based on the config
+        # 1. Instantiate Embeddings using the static cache (FIX: Runs once)
+        self.embeddings = self._get_cached_embeddings(config.embedding_model_name)
+
+        # 2. Instantiate all required components based on the current config
         
-        # Loader
-        loader = ConfigurableLoader(urls=self.config.urls)
-        
-        # Embeddings
-        print(f"Loading embedding model: {self.config.embedding_model_name}")
-        embeddings = HuggingFaceEmbeddings(model_name=self.config.embedding_model_name)
-        
-        # Text Splitter
-        text_splitter = RecursiveCharacterTextSplitter(
-            chunk_size=self.config.chunk_size, 
-            chunk_overlap=self.config.chunk_overlap
+        # Text splitter (Dynamic: Depends on chunk_size/overlap)
+        splitter = RecursiveCharacterTextSplitter(
+            chunk_size=config.chunk_size,
+            chunk_overlap=config.chunk_overlap
         )
-        
+
         # LLM
-        print(f"Loading LLM: {self.config.llm_model_name} from {self.config.llm_provider}")
-        if self.config.llm_provider != "groq":
-            print(f"Warning: This class is optimized for Groq, but provider is {self.config.llm_provider}.")
-            # You could add more provider logic here if needed
-            
-        llm = ChatGroq(
-            model=self.config.llm_model_name, 
-            temperature=self.config.llm_temperature
-        )
-        
+        print(f"Loading LLM: {config.llm_model_name}")
+        llm = ChatGroq(model=config.llm_model_name, temperature=config.llm_temperature)
+
         # Prompt
-        print(f"Pulling prompt from Hub: {self.config.prompt_hub_path}")
-        prompt = hub.pull(self.config.prompt_hub_path)
-        
-        # Indexer (In-Memory)
-        indexer = InMemoryIndexer(
-            embeddings_model=embeddings, 
-            text_splitter=text_splitter
-        )
-        
-        # Retriever (In-Memory)
-        retriever = InMemoryRetriever(top_k=self.config.top_k)
-        
+        prompt = config.custom_prompt_template or hub.pull(config.prompt_hub_path)
+
+        # Loader (Used for document retrieval)
+        loader = ConfigurableLoader(urls=config.urls, texts=config.texts)
+
+        # Indexer (Requires embeddings/splitter)
+        indexer = InMemoryIndexer(self.embeddings, splitter)
+
+        # Retriever (Dynamic: Depends on top_k)
+        retriever = InMemoryRetriever(top_k=config.top_k)
+
         # Generator
-        generator = LangChainGenerator(llm=llm, prompt_template=prompt)
-        
-        # 2. Instantiate the main RAG system
+        generator = LangChainGenerator(llm, prompt)
+
+        # 3. Instantiate the RAG Composition Class
         self.rag_system = RAG(
             loader=loader,
             indexer=indexer,
             retriever=retriever,
             generator=generator
         )
-        
-        # 3. Run the setup pipeline (load, index, create chain)
-        self.rag_system.setup_pipeline()
 
-    def ask(self, query: str) -> str:
+        # 4. Run the full pipeline setup (Load Docs, Index, Build Chain)
+        self.rag_system.setup_pipeline()
+        
+        
+    @staticmethod
+    def _get_cached_embeddings(model_name: str) -> HuggingFaceEmbeddings:
         """
-        Passes the query directly to the internal RAG system's ask method.
+        Ensures the HuggingFaceEmbeddings model is loaded only once across 
+        all instances of RAGInterface.
+        """
+        if model_name not in _EMBEDDINGS_CACHE:
+            print(f"Loading embedding model: {model_name} (FIRST TIME)")
+            _EMBEDDINGS_CACHE[model_name] = HuggingFaceEmbeddings(model_name=model_name)
+        else:
+            print(f"Using cached embedding model: {model_name}")
+        
+        return _EMBEDDINGS_CACHE[model_name]
+
+
+    def ask(self, query):
+        """
+        Invokes the RAG system's ask method.
         """
         return self.rag_system.ask(query)
 
 
 
 class QABatchProcessor:
-    """
-    This class is responsible for processing a batch of QA pairs.
-    """
+    """Processes a batch of QA pairs."""
     def __init__(self, config: RAGConfig, questions_file: str,
                     output_file: str = "rag_results.txt"):
-        
         self.rag_interface = RAGInterface(config)
         self.questions_file = questions_file
         self.output_file = output_file
 
     def process_batch(self):
-        """
-        Processes the batch of questions from the input file
-        and writes the results to the output text file.
-        """
         with open(self.questions_file, 'r') as infile, open(self.output_file, 'w') as outfile:
             for line in infile:
                 question = line.strip()
-                if not question:
-                    continue
-                    
+                if not question: continue
                 answer = self.rag_interface.ask(question)
-                
                 outfile.write(f"Q: {question}\n")
                 outfile.write(f"A: {answer}\n")
                 outfile.write("-" * 80 + "\n\n")
 
 
-# --- Example Usage ---
 
 if __name__ == "__main__":
     
-    print("--- Testing RAGInterface with 'Código Penal' config ---")
-    
-    # 1. Create a configuration object
-    # These are the exact parameters from your main_inmemory_groq function
-    penal_code_config = RAGConfig(
+    config = RAGConfig(
         urls=[
-            "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444", # BOE - Texto Consolidado
-            "https://es.wikipedia.org/wiki/C%C3%B3digo_Penal_de_Espa%C3%B1a", # Wikipedia
-            "https://www.conceptosjuridicos.com/codigo-penal/" # Legal concepts summary
+            "https://en.wikipedia.org/wiki/Deep_learning",
+            "https://en.wikipedia.org/wiki/Artificial_neural_network"
         ],
         chunk_size=1000,
         chunk_overlap=200,
-        top_k=5,
+        top_k=4,
         llm_model_name="llama-3.1-8b-instant",
         llm_provider="groq",
         llm_temperature=0.2,
         embedding_model_name="sentence-transformers/all-mpnet-base-v2"
     )
+        
+    rag = RAGInterface(config)
 
-    # 2. Initialize the QA Batch Processor
-    qa_processor = QABatchProcessor(
-        config=penal_code_config,
-        questions_file="questions.txt",
-    )
+    # Test determinism of RAG
+    question = "What is Deep Learning?"
+    num_runs = 15
 
-    # 3. Process the batch
-    qa_processor.process_batch()
+    responses = []
+    for i in range(num_runs):
+        ans = rag.ask(question)
+        responses.append(ans)
+
+    base_answer = responses[0]
+    similarities = []
+
+    for i, ans in enumerate(responses):
+        sim = similarity(base_answer, ans)
+        similarities.append(sim)
+
+    plt.figure()
+    plt.plot(range(num_runs), similarities, marker="o")
+    plt.xlabel("Iteration")
+    plt.ylabel("Cosine similarity with first answer")
+    plt.title("RAG determinism across repeated queries")
+    plt.grid(True)
+    plt.savefig("rag_determinism.png")
+    plt.show()

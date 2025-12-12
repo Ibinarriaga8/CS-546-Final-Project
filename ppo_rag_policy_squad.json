@@ -1,0 +1,1504 @@
+{
+  "history": [
+    {
+      "question": "Exclusive deals for distributing comics during the 1990s left this company as the only unaffiliated one.",
+      "action_idx": 47,
+      "action": {
+        "top_k": 25,
+        "llm_temperature": 0.5
+      },
+      "reward": 0.995202362537384,
+      "latency": 4.496556043624878
+    },
+    {
+      "question": "What was the issue date when this superhero team debuted?",
+      "action_idx": 44,
+      "action": {
+        "top_k": 25,
+        "llm_temperature": 0.1
+      },
+      "reward": 0.9157930612564087,
+      "latency": 2.7344512939453125
+    },
+    {
+      "question": "The failure of what high profile business initiative caused Marvel to approach Diamond?",
+      "action_idx": 1,
+      "action": {
+        "top_k": 2,
+        "llm_temperature": 0.05
+      },
+      "reward": 0.8528457283973694,
+      "latency": 2.559124231338501
+    },
+    {
+      "question": "Which two comic book titles were the precursors to the widening of this overall setting?",
+      "action_idx": 2,
+      "action": {
+        "top_k": 2,
+        "llm_temperature": 0.1
+      },
+      "reward": 0.08421658724546432,
+      "latency": 2.373502254486084
+    },
+    {
+      "question": "What two Marvel characters were part of that campus heroes section?",
+      "action_idx": 47,
+      "action": {
+        "top_k": 25,
+        "llm_temperature": 0.5
+      },
+      "reward": 0.9826974868774414,
+      "latency": 6.79121470451355
+    },
+    {
+      "question": "What two real life persons were also part of the magazine feature alongside fictional Marvel characters?",
+      "action_idx": 50,
+      "action": {
+        "top_k": 30,
+        "llm_temperature": 0.1
+      },
+      "reward": 0.9846025705337524,
+      "latency": 27.511066436767578
+    },
+    {
+      "question": "DeCarlo also penned a knock-off of what teen comic superstar?",
+      "action_idx": 9,
+      "action": {
+        "top_k": 3,
+        "llm_temperature": 0.2
+      },
+      "reward": 0.2386244386434555,
+      "latency": 5.088449716567993
+    },
+    {
+      "question": "Secret Wars was an early example of what Marvel comics story trope?",
+      "action_idx": 15,
+      "action": {
+        "top_k": 5,
+        "llm_temperature": 0.2
+      },
+      "reward": 0.12783585488796234,
+      "latency": 9.216702699661255
+    },
+    {
+      "question": "When did the Marvel Adventures line cease publishing?",
+      "action_idx": 24,
+      "action": {
+        "top_k": 10,
+        "llm_temperature": 0.0
+      },
+      "reward": 0.9684804677963257,
+      "latency": 8.97030234336853
+    },
+    {
+      "question": "Who joined with Stan Lee in creating the Fantastic Four?",
+      "action_idx": 25,
+      "action": {
+        "top_k": 10,
+        "llm_temperature": 0.05
+      },
+      "reward": 0.9788991212844849,
+      "latency": 10.735517501831055
+    },
+    {
+      "question": "What wholly-owned affiliate of this company did Marvel operate within?",
+      "action_idx": 0,
+      "action": {
+        "top_k": 2,
+        "llm_temperature": 0.0
+      },
+      "reward": 0.43286964297294617,
+      "latency": 5.895069360733032
+    },
+    {
+      "question": "When was Marvel founded?",
+      "action_idx": 30,
+      "action": {
+        "top_k": 15,
+        "llm_temperature": 0.0
+      },
+      "reward": 0.9686660170555115,
+      "latency": 14.470298051834106
+    },
+    {
+      "question": "Marvel Comics was part of many entities having what relationship with Timely?",
+      "action_idx": 28,
+      "action": {
+        "top_k": 10,
+        "llm_temperature": 0.3
+      },
+      "reward": 0.24056316912174225,
+      "latency": 11.058570623397827
+    },
+    {
+      "question": "In 2005, Marvel dropped it's own publishing rights for novelization and instead partnered with what publisher?",
+      "action_idx": 23,
+      "action": {
+        "top_k": 7,
+        "llm_temperature": 0.5
+      },
+      "reward": 0.9612680673599243,
+      "latency": 9.40393614768982
+    },
+    {
+      "question": "What was Marvel's self-hosted comic book convention called?",
+      "action_idx": 34,
+      "action": {
+        "top_k": 15,
+        "llm_temperature": 0.3
+      },
+      "reward": 0.817535936832428,
+      "latency": 13.972255229949951
+    },
+    {
+      "question": "Secret Wars was an early example of what Marvel comics story trope?",
+      "action_idx": 38,
+      "action": {
+        "top_k": 20,
+        "llm_temperature": 0.1
+      },
+      "reward": 0.49685046076774597,
+      "latency": 13.80684518814087
+    },
+    {
+      "question": "What Marvel hero is related to a tiny insect?",
+      "action_idx": 12,
+      "action": {
+        "top_k": 5,
+        "llm_temperature": 0.0
+      },
+      "reward": 0.9812278151512146,
+      "latency": 7.508941888809204
+    },
+    {
+      "question": "What situation allowed Marvel to expand into more adult-themed genre stories?",
+      "action_idx": 7,
+      "action": {
+        "top_k": 3,
+        "llm_temperature": 0.05
+      },
+      "reward": 0.16299617290496826,
+      "latency": 6.101513385772705
+    },
+    {
+      "question": "What distributor took over Marvel's titles in 1969?",
+      "action_idx": 53,
+      "action": {
+        "top_k": 30,
+        "llm_temperature": 0.5
+      },
+      "reward": 0.1268700212240219,
+      "latency": 23.700597524642944
+    },
+    {
+      "question": "What was the name of the adult themed comics imprint for Marvel with more explicit content?",
+      "action_idx": 2,
+      "action": {
+        "top_k": 2,
+        "llm_temperature": 0.1
+      },
+      "reward": 0.9574291110038757,
+      "latency": 4.421877861022949
+    },
+    {
+      "question": "What government agency asked Marvel to do a series of stories to publicize an issue?",
+      "action_idx": 46,
+      "action": {
+        "top_k": 25,
+        "llm_temperature": 0.3
+      },
+      "reward": 0.9639225006103516,
+      "latency": 20.751657485961914
+    },
+    {
+      "question": "What Disney theme park will become the first to feature Marvel-specific attractions?",
+      "action_idx": 15,
+      "action": {
+        "top_k": 5,
+        "llm_temperature": 0.2
+      },
+      "reward": 0.9761643409729004,
+      "latency": 6.607804536819458
+    },
+    {
+      "question": "What is Marvel's best-selling comic?",
+      "action_idx": 52,
+      "action": {
+        "top_k": 30,
+        "llm_temperature": 0.3
+      },
+      "reward": 0.6834486722946167,
+      "latency": 24.37622880935669
+    },
+    {
+      "question": "How long was the 1970s revival of Atlas Comics in business?",
+      "action_idx": 34,
+      "action": {
+        "top_k": 15,
+        "llm_temperature": 0.3
+      },
+      "reward": 0.9762302041053772,
+      "latency": 13.767693758010864
+    },
+    {
+      "question": "In 2010, Marvel switched to what distributor for bookstore comic book sales?",
+      "action_idx": 43,
+      "action": {
+        "top_k": 25,
+        "llm_temperature": 0.05
+      },
+      "reward": 0.9352092742919922,
+      "latency": 17.227680444717407
+    },
+    {
+      "question": "What was Abraham Goodman's official title when Marvel was founded?",
+      "action_idx": 27,
+      "action": {
+        "top_k": 10,
+        "llm_temperature": 0.2
+      },
+      "reward": 0.20233982801437378,
+      "latency": 10.692151069641113
+    },
+    {
+      "question": "What government agency asked Marvel to do a series of stories to publicize an issue?",
+      "action_idx": 22,
+      "action": {
+        "top_k": 7,
+        "llm_temperature": 0.3
+      },
+      "reward": 0.9639225006103516,
+      "latency": 9.337268352508545
+    },
+    {
+      "question": "The emphasis on relatable settings and character motivations in Marvel's 1960s comics is called what?",
+      "action_idx": 41,
+      "action": {
+        "top_k": 20,
+        "llm_temperature": 0.5
+      },
+      "reward": 0.24980610609054565,
+      "latency": 16.67105507850647
+    },
+    {
+      "question": "What two Marvel veterans founded Image?",
+      "action_idx": 2,
+      "action": {
+        "top_k": 2,
+        "llm_temperature": 0.1
+      },
+      "reward": 0.9848911166191101,
+      "latency": 4.506244897842407
+    },
+    {
+      "question": "What publisher did Marvel first license its characters to for novelization?",
+      "action_idx": 19,
+      "action": {
+        "top_k": 7,
+        "llm_temperature": 0.05
+      },
+      "reward": 0.9804046154022217,
+      "latency": 9.566048860549927
+    },
+    {
+      "question": "Which publisher is Marvel's biggest rival?",
+      "action_idx": 8,
+      "action": {
+        "top_k": 3,
+        "llm_temperature": 0.1
+      },
+      "reward": 0.9510071277618408,
+      "latency": 5.863874673843384
+    },
+    {
+      "question": "When was Marvel founded?",
+      "action_idx": 11,
+      "action": {
+        "top_k": 3,
+        "llm_temperature": 0.5
+      },
+      "reward": 0.9686660170555115,
+      "latency": 5.6642396450042725
+    },
+    {
+      "question": "What Marvel movie featured Star-Lord and Gamora?",
+      "action_idx": 19,
+      "action": {
+        "top_k": 7,
+        "llm_temperature": 0.05
+      },
+      "reward": 0.9778662919998169,
+      "latency": 8.327891111373901
+    },
+    {
+      "question": "The emphasis on relatable settings and character motivations in Marvel's 1960s comics is called what?",
+      "action_idx": 5,
+      "action": {
+        "top_k": 2,
+        "llm_temperature": 0.5
+      },
+      "reward": 0.114205002784729,
+      "latency": 5.64319109916687
+    },
+    {
+      "question": "When was the sale of Marvel to this entertainment conglomerate announced?",
+      "action_idx": 24,
+      "action": {
+        "top_k": 10,
+        "llm_temperature": 0.0
+      },
+      "reward": 0.95548415184021,
+      "latency": 11.929864645004272
+    },
+    {
+      "question": "Under what handle were Marvel's detective fiction comics published?",
+      "action_idx": 19,
+      "action": {
+        "top_k": 7,
+        "llm_temperature": 0.05
+      },
+      "reward": 0.16866974532604218,
+      "latency": 8.93416452407837
+    },
+    {
+      "question": "What channel did Marvel buy to self-distribute its own comics in the 1990s?",
+      "action_idx": 30,
+      "action": {
+        "top_k": 15,
+        "llm_temperature": 0.0
+      },
+      "reward": 0.9480682611465454,
+      "latency": 13.410224437713623
+    },
+    {
+      "question": "What new retail outlet came on board at the end of the 1970s to rival newsstands for comic sales?",
+      "action_idx": 26,
+      "action": {
+        "top_k": 10,
+        "llm_temperature": 0.1
+      },
+      "reward": 0.2078993320465088,
+      "latency": 7.112600564956665
+    },
+    {
+      "question": "Which two groups of Marvel crimefighters are based in a fictional version of New York City?",
+      "action_idx": 37,
+      "action": {
+        "top_k": 20,
+        "llm_temperature": 0.05
+      },
+      "reward": 0.9315646886825562,
+      "latency": 15.64745807647705
+    },
+    {
+      "question": "Which writer and artist was behind the Sub-Mariner?",
+      "action_idx": 11,
+      "action": {
+        "top_k": 3,
+        "llm_temperature": 0.5
+      },
+      "reward": 0.5003697276115417,
+      "latency": 5.873570203781128
+    },
+    {
+      "question": "Secret Wars was an early example of what Marvel comics story trope?",
+      "action_idx": 32,
+      "action": {
+        "top_k": 15,
+        "llm_temperature": 0.1
+      },
+      "reward": 0.12783585488796234,
+      "latency": 14.066627979278564
+    },
+    {
+      "question": "What movie sci-fi franchise returned to Marvel in 2015?",
+      "action_idx": 15,
+      "action": {
+        "top_k": 5,
+        "llm_temperature": 0.2
+      },
+      "reward": 0.5870963335037231,
+      "latency": 6.933112621307373
+    },
+    {
+      "question": "Because of a prior contract, what two Disney parks are barred from featuring Marvel characters?",
+      "action_idx": 48,
+      "action": {
+        "top_k": 30,
+        "llm_temperature": 0.0
+      },
+      "reward": 0.9873024225234985,
+      "latency": 22.733428955078125
+    },
+    {
+      "question": "How many comics did Marvel sell during 1968?",
+      "action_idx": 21,
+      "action": {
+        "top_k": 7,
+        "llm_temperature": 0.2
+      },
+      "reward": 0.9710392951965332,
+      "latency": 7.703061103820801
+    },
+    {
+      "question": "When was the first Marvel-sponsored comics convention?",
+      "action_idx": 47,
+      "action": {
+        "top_k": 25,
+        "llm_temperature": 0.5
+      },
+      "reward": 0.7441648244857788,
+      "latency": 21.390867710113525
+    },
+    {
+      "question": "The contract with what non-Disney studio prevents some parks from using Marvel characters?",
+      "action_idx": 8,
+      "action": {
+        "top_k": 3,
+        "llm_temperature": 0.1
+      },
+      "reward": 0.5167795419692993,
+      "latency": 5.065147638320923
+    },
+    {
+      "question": "What in-house standards system did Marvel replace the Comics Code with?",
+      "action_idx": 22,
+      "action": {
+        "top_k": 7,
+        "llm_temperature": 0.3
+      },
+      "reward": 0.9112870693206787,
+      "latency": 10.411399602890015
+    },
+    {
+      "question": "None of the Fantastic Four had what hidden element so common to other superheroes?",
+      "action_idx": 15,
+      "action": {
+        "top_k": 5,
+        "llm_temperature": 0.2
+      },
+      "reward": 0.923291802406311,
+      "latency": 7.8266215324401855
+    },
+    {
+      "question": "What magazine featured two Marvel Characters in a college campus heroes feature?",
+      "action_idx": 27,
+      "action": {
+        "top_k": 10,
+        "llm_temperature": 0.2
+      },
+      "reward": 0.7487732172012329,
+      "latency": 10.27165699005127
+    },
+    {
+      "question": "What publisher did Marvel first license its characters to for novelization?",
+      "action_idx": 52,
+      "action": {
+        "top_k": 30,
+        "llm_temperature": 0.3
+      },
+      "reward": 0.9804046154022217,
+      "latency": 23.606009483337402
+    },
+    {
+      "question": "What distributor took over Marvel's titles in 1969?",
+      "action_idx": 46,
+      "action": {
+        "top_k": 25,
+        "llm_temperature": 0.3
+      },
+      "reward": 0.1268700212240219,
+      "latency": 18.13718581199646
+    },
+    {
+      "question": "In what city was Marvel based when it was founded?",
+      "action_idx": 18,
+      "action": {
+        "top_k": 7,
+        "llm_temperature": 0.0
+      },
+      "reward": 0.21117107570171356,
+      "latency": 9.40408992767334
+    },
+    {
+      "question": "What waterfowl character had his own satire series of comic books?",
+      "action_idx": 9,
+      "action": {
+        "top_k": 3,
+        "llm_temperature": 0.2
+      },
+      "reward": 0.07760635018348694,
+      "latency": 5.0352888107299805
+    },
+    {
+      "question": "Which writer and artist was behind the Sub-Mariner?",
+      "action_idx": 34,
+      "action": {
+        "top_k": 15,
+        "llm_temperature": 0.3
+      },
+      "reward": 0.47111114859580994,
+      "latency": 16.167898893356323
+    },
+    {
+      "question": "DeCarlo also penned a knock-off of what teen comic superstar?",
+      "action_idx": 52,
+      "action": {
+        "top_k": 30,
+        "llm_temperature": 0.3
+      },
+      "reward": 0.7821861505508423,
+      "latency": 21.545955896377563
+    },
+    {
+      "question": "What Marvel executive helped change the focus of Marvel's stories and characters?",
+      "action_idx": 18,
+      "action": {
+        "top_k": 7,
+        "llm_temperature": 0.0
+      },
+      "reward": 0.28877517580986023,
+      "latency": 6.70544695854187
+    },
+    {
+      "question": "Which writer and artist was behind the Sub-Mariner?",
+      "action_idx": 20,
+      "action": {
+        "top_k": 7,
+        "llm_temperature": 0.1
+      },
+      "reward": 0.9717836976051331,
+      "latency": 10.454205751419067
+    },
+    {
+      "question": "What were two of Marvel's comic heroes in fantasy, swords and magic settings?",
+      "action_idx": 6,
+      "action": {
+        "top_k": 3,
+        "llm_temperature": 0.0
+      },
+      "reward": 0.05831950157880783,
+      "latency": 6.93081259727478
+    },
+    {
+      "question": "What Marvel hero is related to a tiny insect?",
+      "action_idx": 23,
+      "action": {
+        "top_k": 7,
+        "llm_temperature": 0.5
+      },
+      "reward": 0.9812278151512146,
+      "latency": 9.378424644470215
+    },
+    {
+      "question": "What were the issue dates of the three-episode series on this public health issue?",
+      "action_idx": 4,
+      "action": {
+        "top_k": 2,
+        "llm_temperature": 0.3
+      },
+      "reward": 0.08163503557443619,
+      "latency": 5.864278316497803
+    },
+    {
+      "question": "In 2005, Marvel dropped it's own publishing rights for novelization and instead partnered with what publisher?",
+      "action_idx": 12,
+      "action": {
+        "top_k": 5,
+        "llm_temperature": 0.0
+      },
+      "reward": 0.9612680673599243,
+      "latency": 8.583268404006958
+    },
+    {
+      "question": "What is the name of the character created by Carl Burgos?",
+      "action_idx": 9,
+      "action": {
+        "top_k": 3,
+        "llm_temperature": 0.2
+      },
+      "reward": 0.13798874616622925,
+      "latency": 6.785664081573486
+    },
+    {
+      "question": "What new retail outlet came on board at the end of the 1970s to rival newsstands for comic sales?",
+      "action_idx": 30,
+      "action": {
+        "top_k": 15,
+        "llm_temperature": 0.0
+      },
+      "reward": 0.2078993320465088,
+      "latency": 12.349356889724731
+    },
+    {
+      "question": "What is Marvel's best-selling comic?",
+      "action_idx": 10,
+      "action": {
+        "top_k": 3,
+        "llm_temperature": 0.3
+      },
+      "reward": 0.039466455578804016,
+      "latency": 5.684881210327148
+    },
+    {
+      "question": "What Disney theme park will become the first to feature Marvel-specific attractions?",
+      "action_idx": 17,
+      "action": {
+        "top_k": 5,
+        "llm_temperature": 0.5
+      },
+      "reward": 0.9761643409729004,
+      "latency": 7.648921489715576
+    },
+    {
+      "question": "What Disney theme park will become the first to feature Marvel-specific attractions?",
+      "action_idx": 2,
+      "action": {
+        "top_k": 2,
+        "llm_temperature": 0.1
+      },
+      "reward": 0.9761643409729004,
+      "latency": 5.384780645370483
+    },
+    {
+      "question": "What industry censorship and standards organization tried to block publication of this series?",
+      "action_idx": 38,
+      "action": {
+        "top_k": 20,
+        "llm_temperature": 0.1
+      },
+      "reward": 0.9267456531524658,
+      "latency": 17.896395683288574
+    },
+    {
+      "question": "What was the business state of Marvel by 2000?",
+      "action_idx": 24,
+      "action": {
+        "top_k": 10,
+        "llm_temperature": 0.0
+      },
+      "reward": 0.22216343879699707,
+      "latency": 10.39249849319458
+    },
+    {
+      "question": "Writer Geoff Boucher compared DC to what dull 1960s crooner?",
+      "action_idx": 1,
+      "action": {
+        "top_k": 2,
+        "llm_temperature": 0.05
+      },
+      "reward": 0.711234450340271,
+      "latency": 5.9850335121154785
+    },
+    {
+      "question": "What is the name of the character created by Carl Burgos?",
+      "action_idx": 20,
+      "action": {
+        "top_k": 7,
+        "llm_temperature": 0.1
+      },
+      "reward": 0.13798874616622925,
+      "latency": 10.004314661026001
+    },
+    {
+      "question": "When was the first Marvel-sponsored comics convention?",
+      "action_idx": 6,
+      "action": {
+        "top_k": 3,
+        "llm_temperature": 0.0
+      },
+      "reward": 0.9610549807548523,
+      "latency": 6.705147981643677
+    },
+    {
+      "question": "What was Dan DeCarlo's spooky but humorous comic aimed at kids called?",
+      "action_idx": 9,
+      "action": {
+        "top_k": 3,
+        "llm_temperature": 0.2
+      },
+      "reward": 0.7599512338638306,
+      "latency": 7.137620687484741
+    },
+    {
+      "question": "What was the original name of Marvel Comics?",
+      "action_idx": 44,
+      "action": {
+        "top_k": 25,
+        "llm_temperature": 0.1
+      },
+      "reward": 0.8771870136260986,
+      "latency": 20.120944023132324
+    },
+    {
+      "question": "In what city was Marvel based when it was founded?",
+      "action_idx": 26,
+      "action": {
+        "top_k": 10,
+        "llm_temperature": 0.1
+      },
+      "reward": 0.21117107570171356,
+      "latency": 10.165910959243774
+    },
+    {
+      "question": "When was the first Marvel-sponsored comics convention?",
+      "action_idx": 9,
+      "action": {
+        "top_k": 3,
+        "llm_temperature": 0.2
+      },
+      "reward": 0.9610549807548523,
+      "latency": 7.508232116699219
+    },
+    {
+      "question": "Who joined with Stan Lee in creating the Fantastic Four?",
+      "action_idx": 40,
+      "action": {
+        "top_k": 20,
+        "llm_temperature": 0.3
+      },
+      "reward": 0.9788991212844849,
+      "latency": 17.8035945892334
+    },
+    {
+      "question": "What was the name of the humorous feature penned by Wolverton?",
+      "action_idx": 14,
+      "action": {
+        "top_k": 5,
+        "llm_temperature": 0.1
+      },
+      "reward": 0.8537346720695496,
+      "latency": 5.996418237686157
+    },
+    {
+      "question": "The most popular early Marvel heroes were collectively and colloquially known as what?",
+      "action_idx": 2,
+      "action": {
+        "top_k": 2,
+        "llm_temperature": 0.1
+      },
+      "reward": 0.3143630027770996,
+      "latency": 6.129858493804932
+    },
+    {
+      "question": "What is Marvel's best-selling comic?",
+      "action_idx": 39,
+      "action": {
+        "top_k": 20,
+        "llm_temperature": 0.2
+      },
+      "reward": 0.039466455578804016,
+      "latency": 6089.961427688599
+    },
+    {
+      "question": "What entertainment company purchased Marvel at the end of the 2000s?",
+      "action_idx": 1,
+      "action": {
+        "top_k": 2,
+        "llm_temperature": 0.05
+      },
+      "reward": 0.988770604133606,
+      "latency": 3.3434433937072754
+    },
+    {
+      "question": "What is an example of a bad practice eliminated under Shooter's regime at Marvel?",
+      "action_idx": 11,
+      "action": {
+        "top_k": 3,
+        "llm_temperature": 0.5
+      },
+      "reward": 0.050017595291137695,
+      "latency": 2.473564386367798
+    },
+    {
+      "question": "What channel did Marvel buy to self-distribute its own comics in the 1990s?",
+      "action_idx": 41,
+      "action": {
+        "top_k": 20,
+        "llm_temperature": 0.5
+      },
+      "reward": 0.9480682611465454,
+      "latency": 2.6326749324798584
+    },
+    {
+      "question": "How many comics did Marvel sell during 1968?",
+      "action_idx": 11,
+      "action": {
+        "top_k": 3,
+        "llm_temperature": 0.5
+      },
+      "reward": 0.9710392951965332,
+      "latency": 2.531623363494873
+    },
+    {
+      "question": "How was the setting for the Image versions of Marvel characters different from the official comics?",
+      "action_idx": 4,
+      "action": {
+        "top_k": 2,
+        "llm_temperature": 0.3
+      },
+      "reward": 0.04237930104136467,
+      "latency": 2.4098901748657227
+    },
+    {
+      "question": "What Marvel executive helped change the focus of Marvel's stories and characters?",
+      "action_idx": 34,
+      "action": {
+        "top_k": 15,
+        "llm_temperature": 0.3
+      },
+      "reward": 0.28877517580986023,
+      "latency": 3.196626663208008
+    },
+    {
+      "question": "What was the name of the short-lived Marvel novelization book publisher during the 2000s?",
+      "action_idx": 40,
+      "action": {
+        "top_k": 20,
+        "llm_temperature": 0.3
+      },
+      "reward": 0.966788113117218,
+      "latency": 10.886029481887817
+    },
+    {
+      "question": "When did the Marvel Adventures line cease publishing?",
+      "action_idx": 45,
+      "action": {
+        "top_k": 25,
+        "llm_temperature": 0.2
+      },
+      "reward": 0.9684804677963257,
+      "latency": 18.307549238204956
+    },
+    {
+      "question": "What was Marvel's self-hosted comic book convention called?",
+      "action_idx": 28,
+      "action": {
+        "top_k": 10,
+        "llm_temperature": 0.3
+      },
+      "reward": 0.817535936832428,
+      "latency": 10.641561269760132
+    },
+    {
+      "question": "When did the Marvel Adventures line cease publishing?",
+      "action_idx": 35,
+      "action": {
+        "top_k": 15,
+        "llm_temperature": 0.5
+      },
+      "reward": 0.9684804677963257,
+      "latency": 13.14730715751648
+    },
+    {
+      "question": "How long was the 1970s revival of Atlas Comics in business?",
+      "action_idx": 15,
+      "action": {
+        "top_k": 5,
+        "llm_temperature": 0.2
+      },
+      "reward": 0.9762302041053772,
+      "latency": 7.887305736541748
+    },
+    {
+      "question": "Because of a prior contract, what two Disney parks are barred from featuring Marvel characters?",
+      "action_idx": 17,
+      "action": {
+        "top_k": 5,
+        "llm_temperature": 0.5
+      },
+      "reward": 0.9753882884979248,
+      "latency": 7.2509095668792725
+    },
+    {
+      "question": "What was Abraham Goodman's official title when Marvel was founded?",
+      "action_idx": 46,
+      "action": {
+        "top_k": 25,
+        "llm_temperature": 0.3
+      },
+      "reward": 0.9574788212776184,
+      "latency": 21.049522638320923
+    },
+    {
+      "question": "How many comics did Marvel sell during 1968?",
+      "action_idx": 2,
+      "action": {
+        "top_k": 2,
+        "llm_temperature": 0.1
+      },
+      "reward": 0.9710392951965332,
+      "latency": 6.822075843811035
+    },
+    {
+      "question": "Secret Wars was an early example of what Marvel comics story trope?",
+      "action_idx": 15,
+      "action": {
+        "top_k": 5,
+        "llm_temperature": 0.2
+      },
+      "reward": 0.12783585488796234,
+      "latency": 5.649835109710693
+    },
+    {
+      "question": "What was the name of the specialty comics line created by Clive Barker for Marvel?",
+      "action_idx": 26,
+      "action": {
+        "top_k": 10,
+        "llm_temperature": 0.1
+      },
+      "reward": 0.9734103083610535,
+      "latency": 12.183255195617676
+    },
+    {
+      "question": "What trading card company did Marvel team up with to license these trading cards?",
+      "action_idx": 39,
+      "action": {
+        "top_k": 20,
+        "llm_temperature": 0.2
+      },
+      "reward": 0.9691264629364014,
+      "latency": 16.474025011062622
+    },
+    {
+      "question": "When did Marvel withdraw from the Comics Code Authority?",
+      "action_idx": 10,
+      "action": {
+        "top_k": 3,
+        "llm_temperature": 0.3
+      },
+      "reward": 0.967652440071106,
+      "latency": 6.045628547668457
+    },
+    {
+      "question": "Spiderman's fictional city is based off what real American location?",
+      "action_idx": 25,
+      "action": {
+        "top_k": 10,
+        "llm_temperature": 0.05
+      },
+      "reward": 0.9033775329589844,
+      "latency": 9.73309874534607
+    },
+    {
+      "question": "What were the issue dates of the three-episode series on this public health issue?",
+      "action_idx": 5,
+      "action": {
+        "top_k": 2,
+        "llm_temperature": 0.5
+      },
+      "reward": 0.08163503557443619,
+      "latency": 5.216668128967285
+    },
+    {
+      "question": "Under what handle were Marvel's detective fiction comics published?",
+      "action_idx": 0,
+      "action": {
+        "top_k": 2,
+        "llm_temperature": 0.0
+      },
+      "reward": 0.16866974532604218,
+      "latency": 5.92687463760376
+    },
+    {
+      "question": "When was Marvel founded?",
+      "action_idx": 53,
+      "action": {
+        "top_k": 30,
+        "llm_temperature": 0.5
+      },
+      "reward": 0.9686660170555115,
+      "latency": 24.724456548690796
+    },
+    {
+      "question": "The most popular early Marvel heroes were collectively and colloquially known as what?",
+      "action_idx": 9,
+      "action": {
+        "top_k": 3,
+        "llm_temperature": 0.2
+      },
+      "reward": 0.3243905305862427,
+      "latency": 5.76759672164917
+    },
+    {
+      "question": "What two Marvel characters were part of that campus heroes section?",
+      "action_idx": 27,
+      "action": {
+        "top_k": 10,
+        "llm_temperature": 0.2
+      },
+      "reward": 0.9826974868774414,
+      "latency": 12.862935781478882
+    },
+    {
+      "question": "What was Dan DeCarlo's spooky but humorous comic aimed at kids called?",
+      "action_idx": 22,
+      "action": {
+        "top_k": 7,
+        "llm_temperature": 0.3
+      },
+      "reward": 0.9896669983863831,
+      "latency": 9.089686632156372
+    },
+    {
+      "question": "What Marvel hero is related to a tiny insect?",
+      "action_idx": 21,
+      "action": {
+        "top_k": 7,
+        "llm_temperature": 0.2
+      },
+      "reward": 0.9812278151512146,
+      "latency": 10.435835838317871
+    },
+    {
+      "question": "What in-house standards system did Marvel replace the Comics Code with?",
+      "action_idx": 26,
+      "action": {
+        "top_k": 10,
+        "llm_temperature": 0.1
+      },
+      "reward": 0.9112870693206787,
+      "latency": 11.643190145492554
+    },
+    {
+      "question": "What channel did Marvel buy to self-distribute its own comics in the 1990s?",
+      "action_idx": 15,
+      "action": {
+        "top_k": 5,
+        "llm_temperature": 0.2
+      },
+      "reward": 0.2480030059814453,
+      "latency": 6.094862461090088
+    },
+    {
+      "question": "During what era did newsstand distribution begin to tail off markedly for Marvel?",
+      "action_idx": 3,
+      "action": {
+        "top_k": 2,
+        "llm_temperature": 0.2
+      },
+      "reward": 0.21375620365142822,
+      "latency": 5.947930812835693
+    },
+    {
+      "question": "Because of a prior contract, what two Disney parks are barred from featuring Marvel characters?",
+      "action_idx": 0,
+      "action": {
+        "top_k": 2,
+        "llm_temperature": 0.0
+      },
+      "reward": 0.9753882884979248,
+      "latency": 5.95762825012207
+    },
+    {
+      "question": "Which publisher is Marvel's biggest rival?",
+      "action_idx": 7,
+      "action": {
+        "top_k": 3,
+        "llm_temperature": 0.05
+      },
+      "reward": 0.9510071277618408,
+      "latency": 5.914880752563477
+    },
+    {
+      "question": "What movie sci-fi franchise returned to Marvel in 2015?",
+      "action_idx": 5,
+      "action": {
+        "top_k": 2,
+        "llm_temperature": 0.5
+      },
+      "reward": 0.5870963335037231,
+      "latency": 5.047123908996582
+    },
+    {
+      "question": "What Marvel character's stories are set in an area resembling the American Southwest?",
+      "action_idx": 34,
+      "action": {
+        "top_k": 15,
+        "llm_temperature": 0.3
+      },
+      "reward": 0.6693587303161621,
+      "latency": 12.434003353118896
+    },
+    {
+      "question": "What was affected by the increasing use at Marvel of crossover stories between comic characters?",
+      "action_idx": 52,
+      "action": {
+        "top_k": 30,
+        "llm_temperature": 0.3
+      },
+      "reward": 0.8325604796409607,
+      "latency": 23.00110673904419
+    },
+    {
+      "question": "What historic era did the Fantastic Four initially inhabit?",
+      "action_idx": 37,
+      "action": {
+        "top_k": 20,
+        "llm_temperature": 0.05
+      },
+      "reward": 0.8946566581726074,
+      "latency": 17.34576988220215
+    },
+    {
+      "question": "What was the sale price of Marvel?",
+      "action_idx": 48,
+      "action": {
+        "top_k": 30,
+        "llm_temperature": 0.0
+      },
+      "reward": 0.9787825345993042,
+      "latency": 25.5898380279541
+    },
+    {
+      "question": "What wholly-owned affiliate of this company did Marvel operate within?",
+      "action_idx": 13,
+      "action": {
+        "top_k": 5,
+        "llm_temperature": 0.05
+      },
+      "reward": 0.43286964297294617,
+      "latency": 7.13424277305603
+    },
+    {
+      "question": "By what other name were some Marvel-related comic books published?",
+      "action_idx": 38,
+      "action": {
+        "top_k": 20,
+        "llm_temperature": 0.1
+      },
+      "reward": 0.8921991586685181,
+      "latency": 17.923251628875732
+    },
+    {
+      "question": "Marvel NOW!, Infinite Comics, and Marvel AR are under the umbrella of what in house business endeavor?",
+      "action_idx": 5,
+      "action": {
+        "top_k": 2,
+        "llm_temperature": 0.5
+      },
+      "reward": 0.1356983482837677,
+      "latency": 4.750093936920166
+    },
+    {
+      "question": "What was the first novel published under this deal?",
+      "action_idx": 20,
+      "action": {
+        "top_k": 7,
+        "llm_temperature": 0.1
+      },
+      "reward": 0.692899227142334,
+      "latency": 9.782517194747925
+    },
+    {
+      "question": "What industry censorship and standards organization tried to block publication of this series?",
+      "action_idx": 39,
+      "action": {
+        "top_k": 20,
+        "llm_temperature": 0.2
+      },
+      "reward": 0.9267456531524658,
+      "latency": 18.588017225265503
+    },
+    {
+      "question": "What noted artist and writer made brought Daredevil to the forefront during the 1980s?",
+      "action_idx": 41,
+      "action": {
+        "top_k": 20,
+        "llm_temperature": 0.5
+      },
+      "reward": 0.9726206660270691,
+      "latency": 16.80821967124939
+    },
+    {
+      "question": "What TV network shares a parent with Marvel?",
+      "action_idx": 38,
+      "action": {
+        "top_k": 20,
+        "llm_temperature": 0.1
+      },
+      "reward": 0.12733034789562225,
+      "latency": 13.344819068908691
+    },
+    {
+      "question": "The failure of what high profile business initiative caused Marvel to approach Diamond?",
+      "action_idx": 44,
+      "action": {
+        "top_k": 25,
+        "llm_temperature": 0.1
+      },
+      "reward": 0.8528457283973694,
+      "latency": 15.404037237167358
+    },
+    {
+      "question": "In what year did Marvel's sales overtake rival DC?",
+      "action_idx": 15,
+      "action": {
+        "top_k": 5,
+        "llm_temperature": 0.2
+      },
+      "reward": 0.9615207314491272,
+      "latency": 7.623408317565918
+    },
+    {
+      "question": "What was the first book published under this new ratings system?",
+      "action_idx": 38,
+      "action": {
+        "top_k": 20,
+        "llm_temperature": 0.1
+      },
+      "reward": 0.9675426483154297,
+      "latency": 18.95691156387329
+    },
+    {
+      "question": "The emphasis on relatable settings and character motivations in Marvel's 1960s comics is called what?",
+      "action_idx": 20,
+      "action": {
+        "top_k": 7,
+        "llm_temperature": 0.1
+      },
+      "reward": 0.18454740941524506,
+      "latency": 8.880788326263428
+    },
+    {
+      "question": "What in-house standards system did Marvel replace the Comics Code with?",
+      "action_idx": 44,
+      "action": {
+        "top_k": 25,
+        "llm_temperature": 0.1
+      },
+      "reward": 0.9112870693206787,
+      "latency": 23.659348011016846
+    },
+    {
+      "question": "What duo of kid-themed characters were featured in early Marvel issues?",
+      "action_idx": 0,
+      "action": {
+        "top_k": 2,
+        "llm_temperature": 0.0
+      },
+      "reward": 0.9800474643707275,
+      "latency": 4.3648457527160645
+    },
+    {
+      "question": "In 2005, Marvel dropped it's own publishing rights for novelization and instead partnered with what publisher?",
+      "action_idx": 16,
+      "action": {
+        "top_k": 5,
+        "llm_temperature": 0.3
+      },
+      "reward": 0.9612680673599243,
+      "latency": 8.000399112701416
+    },
+    {
+      "question": "What Disney theme park will become the first to feature Marvel-specific attractions?",
+      "action_idx": 33,
+      "action": {
+        "top_k": 15,
+        "llm_temperature": 0.2
+      },
+      "reward": 0.9761643409729004,
+      "latency": 14.221652507781982
+    },
+    {
+      "question": "What two Marvel characters were part of that campus heroes section?",
+      "action_idx": 39,
+      "action": {
+        "top_k": 20,
+        "llm_temperature": 0.2
+      },
+      "reward": 0.9826974868774414,
+      "latency": 18.881762266159058
+    },
+    {
+      "question": "What was the first novel published under this deal?",
+      "action_idx": 27,
+      "action": {
+        "top_k": 10,
+        "llm_temperature": 0.2
+      },
+      "reward": 0.692899227142334,
+      "latency": 11.777404308319092
+    },
+    {
+      "question": "What traditional superhero element did the Fantastic Four initially do without?",
+      "action_idx": 27,
+      "action": {
+        "top_k": 10,
+        "llm_temperature": 0.2
+      },
+      "reward": 0.611193835735321,
+      "latency": 10.979772329330444
+    },
+    {
+      "question": "To whom was Marvel sold in 1968?",
+      "action_idx": 30,
+      "action": {
+        "top_k": 15,
+        "llm_temperature": 0.0
+      },
+      "reward": 0.11524392664432526,
+      "latency": 15.292558431625366
+    },
+    {
+      "question": "What company was distributing Marvel's titles at that point?",
+      "action_idx": 9,
+      "action": {
+        "top_k": 3,
+        "llm_temperature": 0.2
+      },
+      "reward": 0.9716863632202148,
+      "latency": 5.881048917770386
+    },
+    {
+      "question": "Marvel's first team of superheroes was known by what alliterative name?",
+      "action_idx": 37,
+      "action": {
+        "top_k": 20,
+        "llm_temperature": 0.05
+      },
+      "reward": 0.9777016639709473,
+      "latency": 19.663001537322998
+    },
+    {
+      "question": "What in-house standards system did Marvel replace the Comics Code with?",
+      "action_idx": 36,
+      "action": {
+        "top_k": 20,
+        "llm_temperature": 0.0
+      },
+      "reward": 0.9112870693206787,
+      "latency": 17.93418836593628
+    },
+    {
+      "question": "What is the readership market share enjoyed by Marvel and DC comics?",
+      "action_idx": 11,
+      "action": {
+        "top_k": 3,
+        "llm_temperature": 0.5
+      },
+      "reward": 0.15231750905513763,
+      "latency": 4.8468241691589355
+    },
+    {
+      "question": "What two real life persons were also part of the magazine feature alongside fictional Marvel characters?",
+      "action_idx": 48,
+      "action": {
+        "top_k": 30,
+        "llm_temperature": 0.0
+      },
+      "reward": 0.9846025705337524,
+      "latency": 27.65520167350769
+    },
+    {
+      "question": "What Marvel movie featured Star-Lord and Gamora?",
+      "action_idx": 23,
+      "action": {
+        "top_k": 7,
+        "llm_temperature": 0.5
+      },
+      "reward": 0.9778662919998169,
+      "latency": 7.918211460113525
+    },
+    {
+      "question": "Fictional placements within this setting are modeled off what?",
+      "action_idx": 20,
+      "action": {
+        "top_k": 7,
+        "llm_temperature": 0.1
+      },
+      "reward": 0.9773815870285034,
+      "latency": 9.307244300842285
+    },
+    {
+      "question": "What new venture did Marvel's founder begin after leaving the company in the 1970s?",
+      "action_idx": 24,
+      "action": {
+        "top_k": 10,
+        "llm_temperature": 0.0
+      },
+      "reward": 0.07673323899507523,
+      "latency": 10.455484628677368
+    },
+    {
+      "question": "Which two comic book titles were the precursors to the widening of this overall setting?",
+      "action_idx": 39,
+      "action": {
+        "top_k": 20,
+        "llm_temperature": 0.2
+      },
+      "reward": 0.6120158433914185,
+      "latency": 15.581151485443115
+    },
+    {
+      "question": "What was affected by the increasing use at Marvel of crossover stories between comic characters?",
+      "action_idx": 48,
+      "action": {
+        "top_k": 30,
+        "llm_temperature": 0.0
+      },
+      "reward": 0.8325604796409607,
+      "latency": 22.437158346176147
+    },
+    {
+      "question": "What is the name of the character created by Carl Burgos?",
+      "action_idx": 12,
+      "action": {
+        "top_k": 5,
+        "llm_temperature": 0.0
+      },
+      "reward": 0.13798874616622925,
+      "latency": 8.342737197875977
+    },
+    {
+      "question": "What Marvel movie featured Star-Lord and Gamora?",
+      "action_idx": 53,
+      "action": {
+        "top_k": 30,
+        "llm_temperature": 0.5
+      },
+      "reward": 0.9778662919998169,
+      "latency": 23.181883096694946
+    },
+    {
+      "question": "What is an example of a bad practice eliminated under Shooter's regime at Marvel?",
+      "action_idx": 27,
+      "action": {
+        "top_k": 10,
+        "llm_temperature": 0.2
+      },
+      "reward": 0.753571629524231,
+      "latency": 8.770874500274658
+    },
+    {
+      "question": "During what era did newsstand distribution begin to tail off markedly for Marvel?",
+      "action_idx": 36,
+      "action": {
+        "top_k": 20,
+        "llm_temperature": 0.0
+      },
+      "reward": 0.974183976650238,
+      "latency": 18.91767120361328
+    },
+    {
+      "question": "What government agency asked Marvel to do a series of stories to publicize an issue?",
+      "action_idx": 5,
+      "action": {
+        "top_k": 2,
+        "llm_temperature": 0.5
+      },
+      "reward": 0.985559344291687,
+      "latency": 4.788629531860352
+    },
+    {
+      "question": "What two Marvel characters were part of that campus heroes section?",
+      "action_idx": 20,
+      "action": {
+        "top_k": 7,
+        "llm_temperature": 0.1
+      },
+      "reward": 0.9826974868774414,
+      "latency": 10.219789981842041
+    }
+  ]
+}
